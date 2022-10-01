@@ -1,15 +1,27 @@
 .nav {
+    align-items: center; display: flex; flex-direction: column;
     font-size: 10px;
-    text-align: center;
+    text-align: center; 
+    margin: 0; padding: 0;
 }
 button {
-    background: #2589BD;
-    border: none; border-radius: 3rem;
-    font-size: 2.25rem;
-    margin: .5rem;
+    background: #2589BD; box-shadow: #1B6288 0 .25rem;
+    border: #1B6288 .25rem solid; border-radius: 3rem;
+    font-family: neucha; font-size: 2.5rem; 
+    margin: 2rem;
     padding: .5rem 1.5rem;
 }
-h1 {
-    background: #E6D3A3;
-    width: 100%;
+button:hover { 
+    box-shadow: #1B6288 0 .5rem;
+    transition: .1s ease-in-out;
 }
+button:nth-child(odd){
+    transform: translateY(1rem);
+}
+h1 {
+    background-image: url('/src/static/assets/sand.png'); 
+    background-clip: border-box;
+    width: 100%;
+    margin: 0; padding: 1rem;
+}
+h1 a {color: #E3B981;}

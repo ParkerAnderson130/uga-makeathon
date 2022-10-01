@@ -7,9 +7,11 @@ const Navbar= () =>{
     return (
         <ul className="nav">
             <h1><Link to="/">Flow</Link></h1>
-            <button><Link to="/timer">Timer</Link></button>
-            <button><Link to="/meditate">Meditation</Link></button>
-            <button><Link to="/info">Info</Link></button>
+            <div>
+                <button><Link to="/timer">Timer</Link></button>
+                <button><Link to="/meditate">Meditation</Link></button>
+                <button><Link to="/info">Info</Link></button>
+            </div>
         </ul>
     );
 }
