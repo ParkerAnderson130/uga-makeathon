@@ -9,9 +9,12 @@ html {
   height: 100%;
 }
 body {
-  font-family: neucha; margin: 0; padding: 0;
+  font-family: neucha; 
+  margin: 0; padding: 0;
   background: radial-gradient(ellipse at center, #D9D9D9 0%, #D9D9D9 35%, #BBDEF2 100%);
   overflow: hidden;
+  text-align: center;
 }
 a {color: #D9D9D9; text-decoration: none;}
 h1 {font-size: 4.5rem; font-weight: 600;}
+h2 {font-size: 2.5rem;}

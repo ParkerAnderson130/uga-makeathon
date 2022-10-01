@@ -1,8 +1,10 @@
 import React from 'react';
+import '../App.css'
+import '../static/css/meditation.css';
 const  Meditation = () =>{
   return (
     <div>
-      <h3>Meditation</h3>
+      <h2>Meditation</h2>
     </div>
   );
 }

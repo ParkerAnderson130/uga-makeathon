@@ -2,7 +2,7 @@ import React from 'react';
 const  Timer = () =>{
   return (
     <div>
-      <h3>Timer</h3>
+      <h2>Timer</h2>
     </div>
   );
 }
