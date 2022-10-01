@@ -12,6 +12,8 @@ const Navbar= () =>{
                 <button><Link to="/meditate">Meditation</Link></button>
                 <button><Link to="/info">Info</Link></button>
             </div>
+            <div class="wave" preserveAspectRatio="none"></div>
+            <div class="wave" preserveAspectRatio="none"></div>
         </ul>
     );
 }
