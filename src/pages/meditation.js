@@ -7,5 +7,3 @@ const  Meditation = () =>{
   );
 }
 export default Meditation;
-
-Meditation.js

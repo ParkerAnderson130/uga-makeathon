@@ -7,5 +7,3 @@ const  Timer = () =>{
   );
 }
 export default Timer;
-
-Timer.js

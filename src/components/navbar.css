@@ -1,0 +1,15 @@
+.nav {
+    font-size: 10px;
+    text-align: center;
+}
+button {
+    background: #2589BD;
+    border: none; border-radius: 3rem;
+    font-size: 2.25rem;
+    margin: .5rem;
+    padding: .5rem 1.5rem;
+}
+h1 {
+    background: #E6D3A3;
+    width: 100%;
+}
