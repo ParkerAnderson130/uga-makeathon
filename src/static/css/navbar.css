@@ -1,3 +1,7 @@
+html * {
+  font-family: neucha !important
+}
+
 .nav {
     align-items: center; display: flex; flex-direction: column;
     font-size: 10px;
@@ -7,25 +11,25 @@
 .nav button {
     background: #2589BD; box-shadow: #1B6288 0 .25rem;
     border: #1B6288 .25rem solid; border-radius: 3rem;
-    font-family: neucha; font-size: 3.5rem; font-weight: 300;
+    font-family: neucha; font-size: 3.5rem; font-weight: 300  !important;
     margin: 2rem;
-    padding: .5rem 1.5rem;
+    padding: .5rem 1.5rem !important;
 }
 .nav button:hover { 
     box-shadow: #1B6288 0 .5rem;
-    transition: .1s ease-in-out;
+    transition: .1s ease-in-out !important;
 }
 .nav button:nth-child(odd){
-    transform: translateY(1rem);
+    transform: translateY(1rem) !important;
 }
 .nav h1 {
-    background-image: url('/src/static/assets/sand.png'); 
-    background-clip: border-box;
+    background-image: url('/src/static/assets/sand.png')  !important; 
+    background-clip: border-box !important;
     /*box-shadow: 0 .5rem 1rem rgba(238, 202, 166, 1);*/
     width: 100%;
-    margin: 0; padding: 1rem;
+    margin: 0 !important; padding: 1rem !important;
 }
-.nav h1 a {color: #926120;}
+.nav h1 a {color: #926120 !important;}
 
 .wave {
     animation: wave 10s cubic-bezier(0.3, 0.5, 0.6, 0.5) infinite;
