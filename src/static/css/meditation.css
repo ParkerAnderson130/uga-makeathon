@@ -1,5 +1,22 @@
-.music {display: flex; flex-direction: row;}
+.music {
+    display: flex; align-items: center; justify-content: center;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 60rem;
+}
 .music-selection {
     aspect-ratio: 1/1; width: 15rem;
-    border: brown 1rem solid;
+    background-position: center;
+    background-size: cover;
+    border: #5C2f0A 1rem solid; border-radius: 2rem;
+    color: #5C2f0A;
+    display: inline;
 }
+.music-selection:hover {
+    background-size: 160%;
+    transform: scale(1.1);
+    transition: .1s ease-in-out;
+}
+#ocean {background-image: url(https://images.unsplash.com/photo-1476673160081-cf065607f449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);}
+#rain {background-image: url(https://images.unsplash.com/photo-1529505843204-2ab04bc1d434?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);}
+#under {background-image: url(https://images.unsplash.com/photo-1502740289988-04eddde1556a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);}
