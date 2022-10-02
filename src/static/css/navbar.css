@@ -28,7 +28,7 @@ html * {
     width: 100%;
 }
 
-.nav div:nth-child(1) > *, h1 a {color: #926120; margin: 1.5rem;}
+.nav div:nth-child(1) > *, h1 a {color: #926120 !important; margin: 1.5rem;}
 .nav div:nth-child(1) div {flex-direction: row;}
 .nav div:nth-child(1) img {aspect-ratio: 1/1; width: 4rem;}
 .nav div:nth-child(1) p {font-size: 2rem; margin: 0;}
