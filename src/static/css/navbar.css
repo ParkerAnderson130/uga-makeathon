@@ -18,14 +18,16 @@
 .nav button:nth-child(odd){
     transform: translateY(1rem);
 }
-.nav h1 {
+.nav div:nth-child(1) {
+    align-items: center; display: flex; justify-content: center;
     background-image: url('/src/static/assets/sand.png'); 
-    background-clip: border-box;
-    /*box-shadow: 0 .5rem 1rem rgba(238, 202, 166, 1);*/
     width: 100%;
-    margin: 0; padding: 1rem;
 }
-.nav h1 a {color: #926120;}
+
+.nav div:nth-child(1) > *, h1 a {color: #926120; margin: 1.5rem;}
+.nav div:nth-child(1) div {flex-direction: row;}
+.nav div:nth-child(1) img {aspect-ratio: 1/1; width: 4rem;}
+.nav div:nth-child(1) p {font-size: 2rem; margin: 0;}
 
 .wave {
     animation: wave 10s cubic-bezier(0.3, 0.5, 0.6, 0.5) infinite;
