@@ -4,28 +4,28 @@
     text-align: center; 
     margin: 0; padding: 0;
 }
-button {
+.nav button {
     background: #2589BD; box-shadow: #1B6288 0 .25rem;
     border: #1B6288 .25rem solid; border-radius: 3rem;
     font-family: neucha; font-size: 3.5rem; font-weight: 300;
     margin: 2rem;
     padding: .5rem 1.5rem;
 }
-button:hover { 
+.nav button:hover { 
     box-shadow: #1B6288 0 .5rem;
     transition: .1s ease-in-out;
 }
-button:nth-child(odd){
+.nav button:nth-child(odd){
     transform: translateY(1rem);
 }
-h1 {
+.nav h1 {
     background-image: url('/src/static/assets/sand.png'); 
     background-clip: border-box;
     /*box-shadow: 0 .5rem 1rem rgba(238, 202, 166, 1);*/
     width: 100%;
     margin: 0; padding: 1rem;
 }
-h1 a {color: #926120;}
+.nav h1 a {color: #926120;}
 
 .wave {
     animation: wave 10s cubic-bezier(0.3, 0.5, 0.6, 0.5) infinite;
