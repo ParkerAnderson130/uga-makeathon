@@ -1,0 +1,50 @@
+h1 {color: #251304; font-family: RobotoSlab;}
+@font-face {
+    font-family: RobotoSlab;
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+ }
+
+.timer-container {
+    display: grid;
+    margin: auto auto;
+}
+
+#background, #otter, .timer-border, .timer-sphere {
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto auto;
+}
+
+.timer-border {
+    background-color: #5C2F0A;
+    border-radius: 100rem;
+    height: 21rem;
+    width: 21rem;
+}
+
+.timer-sphere {
+    background-color: #5C2F0A;
+    border-radius: 100rem;
+    height: 4rem;
+    width: 4rem;
+    z-index: 999;
+}
+
+#background {
+    height: 19rem;
+    width: 19rem;
+}
+
+#otter {
+    position: relative;
+    height: 14rem;
+    -webkit-filter: drop-shadow(0.01rem 0.01rem 0.01rem #222);
+    filter: drop-shadow(0.01rem 0.01rem 0.01rem #222);
+}
+
+.dropdown-item {
+    color:  #212529 !important;
+
+}
+
+
