@@ -1,0 +1,5 @@
+.music {display: flex; flex-direction: row;}
+.music-selection {
+    aspect-ratio: 1/1; width: 15rem;
+    border: brown 1rem solid;
+}

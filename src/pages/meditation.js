@@ -3,8 +3,8 @@ import '../App.css'
 import '../static/css/meditation.css';
 const  Meditation = () =>{
   return (
-    <div>
-      <h2>Meditation</h2>
+    <div class="music">
+      <div class="music-selection"><h2>Rain Noises</h2></div>
     </div>
   );
 }
